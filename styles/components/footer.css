@@ -1,0 +1,50 @@
+.footer {
+  color: var(--cor-text-desc-sub);
+  padding: 2rem 0;
+}
+
+.footer-title {
+  color: var(--cor-text-titulo);
+  font-family: var(--text-marca);
+}
+
+.footer p, .footer ul, .footer li {
+  font-family: var(--text-desc);
+}
+
+.footer a {
+  color: var(--cor-text-desc-sub);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--cor-button);
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: var(--cor-text-desc-sub);
+}
+
+.social-icons a:hover {
+  color: var(--cor-button);
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-section {
+  width: 500px;
+  text-align: center;
+}
+
+.text-center a {
+  color: var(--cor-text-desc-sub);
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  color: var(--cor-button);
+}

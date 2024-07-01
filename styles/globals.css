@@ -2,6 +2,7 @@
 @import './components/footer.css';
 @import './components/header.css';
 @import './components/main.css';
+@import './components/responsivo.css';
 
 /*Importação de fontes*/
 
@@ -24,6 +25,7 @@
   --fundo-section3: #fff7fa;
   --cor-text-titulo: #d0255a;
   --cor-text-desc-sub: #242424;
+  --cor-text-menu: rgba(255, 255, 255, 0.823);
   --cor-text-banner: rgb(219, 216, 216);
 }
 
@@ -40,6 +42,6 @@ body {
 }
 
 a, button {
-  cursor: pointer;
-  text-decoration: none;
+  cursor: pointer !important;
+  text-decoration: none !important;
 }
